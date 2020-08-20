@@ -1,0 +1,191 @@
+@charset "UTF-8";
+
+html {
+  font-size: 62.5%;
+}
+
+body  {
+  background: url("../images/bg.png");
+  background-size: cover;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ヘッダーここから */
+header {
+  padding: 180px 30px 80px;
+}
+
+.head-message1 {
+  margin: 0 0 30px;
+  letter-spacing: 1px;
+  font-size: 24px;
+}
+
+.head-message1::before,.head-message1::after {
+  content: '';
+  display: inline-block;
+  width: 140px;
+  height: 2px;
+  margin: 0 30px;
+  background-color: #fff;
+  vertical-align: middle;
+}
+
+.site-title {
+  font-size: 42px;
+  margin-bottom: 30px;
+}
+
+.btn1 {
+  background-color: darkgrey;
+  width: 200px;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+button a {
+  display: inline-block;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: white;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+/* ヘッダーここまで */
+
+/* aboutここから */
+.about {
+  padding: 80px 30px;
+  background-color: white;
+  color: black;
+}
+
+.heading {
+  position: relative;
+  display: inline-block;
+  margin: 30px 0 15px;
+  padding-bottom: 15px;
+  letter-spacing: 2px;
+  font-size: 36px;
+}
+
+.heading::before,.heading::after {
+  content:'';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-bottom: 1px solid gray;
+}
+
+.about-text {
+  line-height: 2;
+  font-size: 14px;
+}
+/* aboutここまで */
+
+
+/* worksここから */
+.works {
+  padding: 80px;
+}
+
+.works p {
+  font-size: 16px;
+}
+
+.work-wrapper {
+  display: table;
+  width: 100%;
+  margin-top: 60px;
+  table-layout: fixed;
+}
+
+.work-box {
+  display: table-cell;
+}
+
+.work-image {
+  display: block;
+  width: 100%;
+}
+
+.work-image:hover {
+  opacity: 0.7;
+}
+
+.work-text {
+  font-size: 14px;
+}
+
+/* worksここまで */
+
+/* skillsここから */
+.skills {
+  padding: 80px 0;
+  background-color: white;
+  color: black;
+}
+
+.skills-wrapper {
+  display: table;
+  width: 80%;
+  margin:0 auto 0;
+  table-layout: fixed;
+}
+
+.skills-box {
+  display: table-cell;
+}
+
+.skill-title, .skill-text {
+  margin:20px;
+  font-size: 16px;
+}
+
+/* skillsここまで */
+
+/* contactここから */
+.contact {
+  padding: 80px 0 80px;
+}
+
+.contact-form {
+  width: 50%;
+  margin: 50px auto 0;
+}
+
+.contact-form input[type=text] {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  height: 30px;
+  
+}
+.contact-form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  height: 120px;
+}
+
+.contact-form input[type=submit] {
+  background-color: darkgrey;
+  border: 1px solid grey;
+  width: 200px;
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 12px;
+  color: white;
+}
+
+.contact-form input[type=submit]:hover {
+  opacity: 0.7;
+}
+/* contactここまで */
